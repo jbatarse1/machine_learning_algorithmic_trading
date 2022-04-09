@@ -6,8 +6,11 @@ Machine Learning Algorithms that adapt to new data for enhanced trading signals
 This Python application is has 4 sections to the ML Algo Trading Bot. They are:
 
 1. Establish Baseline Performance
+
 2. Tune Baseline Trading Algorithm
+
 3. Evaluate New Machine Learning classifier
+
 4. Create Evaluation Report
 
 In this program, objective is to 
@@ -16,9 +19,8 @@ In this program, objective is to
 
 Notebooks
 
-`GC_venture_funding_with_deep_learning.ipynb`
+`machine_learning_trading_bot.ipynb`
 
-`GC_alternatives_neural_networks.ipynb`
 
 ## Technologies
 
@@ -78,7 +80,7 @@ The following information evaluates the results of the           :
 
 ## Conclusion on the performance of the baseline trading algorithm
 
-+
+Looking at the Baseline Cumulative Returns Plot, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are predicted to outperform the Actual Returns. The Strategy Returns predictions follow a similar trend with that of the Actual Returns.
 
 
 ## Contributors
