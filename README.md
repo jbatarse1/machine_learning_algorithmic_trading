@@ -3,9 +3,13 @@
 Machine Learning Algorithms that adapt to new data for enhanced trading signals
 
 
-This Python application is a binary classifier and is developed to predict the success rate of venture fund's startup investments using Neural Network models. This program notebook is set up to run on Google Colab; due to Apple M1 incompatability; however, it can be customized to function on MS Windows.
+This Python application is a 
 
-In this program, objective is to build, train, evaluate, and optimize the Neural Network model. It compiles a neural network model; then tests other parameters to determine the values that generate the best Loss and Accuracy. It uses dataset manipulation and trial and error methods to develop best possible predictive model. Optimization techniques are utilized to enhance the data preprocessing and model design.
+
+
+In this program, objective is to 
+
+build, train, evaluate, and optimize 
 
 Total of four (4) iterations of trials and error are performed in pursuit to define best possible model.
 
@@ -21,17 +25,23 @@ This application incorportates the following required  dependancies to run:
 
 ### Import the required libraries and dependencies for Python
 
-`import tensorflow as tf`
-
 `import pandas as pd`
 
-`from tensorflow.keras.layers import Dense`
+`import numpy as np`
 
-`from tensorflow.keras.models import Sequential`
+`from pathlib import Path`
 
-`from sklearn.model_selection import train_test_split`
+`import hvplot.pandas`
 
-`from sklearn.preprocessing import StandardScaler, OneHotEncoder`
+`import matplotlib.pyplot as plt`
+
+`from sklearn import svm`
+
+`from sklearn.preprocessing import StandardScaler`
+
+`from pandas.tseries.offsets import DateOffset`
+
+`from sklearn.metrics import classification_report`
 
 
 ## Installation Guide
@@ -40,31 +50,30 @@ The following installation must be performed before running the program. It incl
 
 ### Install the required libraries 
 
-For Window users:
+``Pandas``
 
-`TensorFlow 2.0` and `Keras`
+``NumPy``
 
-Use the pip install command to install the TensorFlow 2.0 library
+``hvPlot``
 
-`pip install --upgrade tensorflow`
+``Matplotlib``
 
-Apple M1 Chip Users:
-The Apple M1 Chip is not currently compatible with a typical Tensorflow installation, run this app on Google Colab
+``scikit-learn``
+
 
 
 ## Usage
 
-To run this application, create a clone on the local desktop. Then, initiate your conda environment and launch in Jupyter Lab. For Apple Mac users, launch in Google Colab.
+To run this application, create a clone on the local desktop. Then, initiate your conda environment and launch in Jupyter Lab. 
 
 Resources folder contains the following CSV files:
 
-`applicant_data.csv`
+`emerging_markets_ohlcv.csv`
 
 
-The following information evaluates the results of the orginal monels and 2 alternate models:
+The following information evaluates the results of the           :
 
 
-<img width="774" alt="accuracy scores" src="https://user-images.githubusercontent.com/93550651/161475831-925c1f7b-2994-4c45-b8e3-8dc677c8f2e6.png">
 
 
 ## Contributors
