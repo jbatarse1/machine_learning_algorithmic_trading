@@ -3,15 +3,16 @@
 Machine Learning Algorithms that adapt to new data for enhanced trading signals
 
 
-This Python application is a 
+This Python application is has 4 sections to the ML Algo Trading Bot. They are:
 
-
+1. Establish Baseline Performance
+2. Tune Baseline Trading Algorithm
+3. Evaluate New Machine Learning classifier
+4. Create Evaluation Report
 
 In this program, objective is to 
 
-build, train, evaluate, and optimize 
 
-Total of four (4) iterations of trials and error are performed in pursuit to define best possible model.
 
 Notebooks
 
@@ -74,6 +75,10 @@ Resources folder contains the following CSV files:
 The following information evaluates the results of the           :
 
 
+
+## Conclusion on the performance of the baseline trading algorithm
+
++
 
 
 ## Contributors
