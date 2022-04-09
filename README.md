@@ -16,11 +16,11 @@ This Python application is has 4 sections to the ML Algo Trading Bot. They are:
 In this program, objective is to 
 
 
-
 Notebooks
 
 `machine_learning_trading_bot.ipynb`
 
+`tune1_machine_learning_trading_bot.ipynb`
 
 ## Technologies
 
@@ -78,11 +78,37 @@ The following information evaluates the results of the           :
 
 
 
+
 ## Conclusion on the performance of the baseline trading algorithm
 
 Looking at the Baseline Cumulative Returns Plot, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are predicted to outperform the Actual Returns. The Strategy Returns predictions follow a similar trend with that of the Actual Returns.
 
 ![baseline_algo_trade](https://user-images.githubusercontent.com/93550651/162590072-dadf8186-209b-457e-94ac-2cc7521d2a75.png)
+
+## Conclusion on the performance of Tuning the baseline trading algorithm
+
+The set of parameters that best improved the trading algorithm returns...
+
+4 time periods were tested to determine best model: 3, 6, 9, 12 months. 
+
+
+
+## Conclusion on Backtesting the new model to evaluate its performance
+
+The back test for the new model..;....
+
+Did the new model perform better or worse than the provided baseline models....
+
+Did this model perform better or worse than your tuned trading algorithm...
+
+
+## Evaluation Report
+
+Final conclusions and analysis.....
+
+Findings are supported by the PNG images.
+
+
 
 
 ## Contributors
