@@ -119,7 +119,9 @@ First,  the `DateOffset` values was adjusted by changing the months from 3 month
 
 <img width="458" alt="6mos_date_plot" src="https://user-images.githubusercontent.com/93550651/162644950-0a7f65b6-52a8-47d5-8b8b-fd5f75d67f0e.png">
 
+<img width="452" alt="6mos_newmodel_report" src="https://user-images.githubusercontent.com/93550651/162645139-f9402d78-26f3-4d24-bacf-2149e7e87a55.png">
 
+<img width="432" alt="6mos_newmodel_plot" src="https://user-images.githubusercontent.com/93550651/162645145-9aff71cd-7463-4db9-a51c-3e59f178e491.png">
 
 from short_window = 4 to 7; for the long_window = 100 to 90.
 
