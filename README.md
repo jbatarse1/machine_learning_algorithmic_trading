@@ -123,6 +123,16 @@ First,  the `DateOffset` values was adjusted by changing the months from 3 month
 
 from short_window = 4 to 7; for the long_window = 100 to 90.
 
+<img width="312" alt="tune_sma" src="https://user-images.githubusercontent.com/93550651/162647189-99186c4d-89c5-442f-9685-011414db6c06.png">
+
+<img width="454" alt="adj_svm" src="https://user-images.githubusercontent.com/93550651/162647260-85577556-78f3-4695-9208-384725b1e72d.png">
+
+<img width="429" alt="adj_plot" src="https://user-images.githubusercontent.com/93550651/162647322-a454025a-ecef-4a9c-b636-9baaa25bb20f.png">
+
+<img width="467" alt="adj_rpt" src="https://user-images.githubusercontent.com/93550651/162647441-694ca93e-a8da-42ec-aa3b-ebb0fe905f42.png">
+
+<img width="415" alt="adj_new_plot" src="https://user-images.githubusercontent.com/93550651/162647461-b4099c3c-f810-4b5c-abe2-ccb4feffb747.png">
+
 
 
 The set of parameters that best improved the trading algorithm returns...
