@@ -121,7 +121,9 @@ First,  the `DateOffset` values was adjusted by changing the months from 3 month
 
 <img width="432" alt="6mos_newmodel_plot" src="https://user-images.githubusercontent.com/93550651/162645145-9aff71cd-7463-4db9-a51c-3e59f178e491.png">
 
-from short_window = 4 to 7; for the long_window = 100 to 90.
+By changing the the size of the training dataset by slicing data from 3 months to 6 months, the models did not improve any better.
+
+from short_window = 4 to 3; for the long_window = 100 to 75.
 
 <img width="312" alt="tune_sma" src="https://user-images.githubusercontent.com/93550651/162647189-99186c4d-89c5-442f-9685-011414db6c06.png">
 
@@ -133,14 +135,7 @@ from short_window = 4 to 7; for the long_window = 100 to 90.
 
 <img width="415" alt="adj_new_plot" src="https://user-images.githubusercontent.com/93550651/162647461-b4099c3c-f810-4b5c-abe2-ccb4feffb747.png">
 
-
-
-The set of parameters that best improved the trading algorithm returns...
-
-
-
-4 time periods were tested to determine best model: 3, 6, 9, 12 months. 
-
+Having performed several iterations to identify the best trading algorithm returns, it can be concluded that the orginial parameters outperform the adjusted models.
 
 
 ## Conclusion on Backtesting the new model to evaluate its performance
