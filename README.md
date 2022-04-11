@@ -121,7 +121,7 @@ Second, keeping the DateOffset at 3 months, let's adjust the short_window = 4 to
 
 <img width="415" alt="adj_new_plot" src="https://user-images.githubusercontent.com/93550651/162647461-b4099c3c-f810-4b5c-abe2-ccb4feffb747.png">
 
-Having performed several iterations to identify the best trading algorithm returns, it can be concluded that the orginial parameters outperform the adjusted models.
+Having performed several iterations to identify the best trading algorithm returns, it is concluded that the orginial parameters outperform the adjusted models.
 
 ### Conclusion on Backtesting the new model to evaluate its performance
 
