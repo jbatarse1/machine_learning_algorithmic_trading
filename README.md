@@ -1,9 +1,8 @@
 # Machine_Learning_Algorithmic_Trading
 
-Machine Learning Algorithms that adapt to new data for enhanced trading signals
+In this program, the objective is to develop a Machine Learning Algorithms that adapts to new data for enhanced trading signals.
 
-
-This Python application is has 4 sections to the ML Algo Trading Bot. They are:
+This Python ML Algo Trading Bot application is set up in 4 sections. They are:
 
 1. Establish Baseline Performance
 
@@ -13,14 +12,14 @@ This Python application is has 4 sections to the ML Algo Trading Bot. They are:
 
 4. Create Evaluation Report
 
-In this program, objective is to 
 
-
-Notebooks
+The following Notebooks are used:
 
 `machine_learning_trading_bot.ipynb`
 
 `tune1_machine_learning_trading_bot.ipynb`
+
+
 
 ## Technologies
 
@@ -54,6 +53,7 @@ To Tune the Baseline Trading Algorithm, use:
 `from sklearn.ensemble import AdaBoostClassifier`
 
 
+
 ## Installation Guide
 
 The following installation must be performed before running the program. It include:
@@ -81,12 +81,8 @@ Resources folder contains the following CSV files:
 `emerging_markets_ohlcv.csv`
 
 
-The following information evaluates the results of the           :
 
-
-
-
-## Conclusion on the performance of the baseline trading algorithm
+### Conclusion on the performance of the baseline trading algorithm
 
 The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.55. This does not provide much confidence in the models performance. The Recall for -1 class is 0.04 and for 1 class is 0.96. This is heavily weighted towards predicting 1 class over -1 class.
 
@@ -105,7 +101,8 @@ The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. Th
 In conclusion, the new model performed better than the baseline.
 
 
-## Conclusion on the performance of Tuning the baseline trading algorithm
+
+### Conclusion on the performance of Tuning the baseline trading algorithm
 
 To determine the best trading outcomes, several iterations were performed by changing the model input features. 
 
@@ -139,7 +136,8 @@ from short_window = 4 to 3; for the long_window = 100 to 75.
 Having performed several iterations to identify the best trading algorithm returns, it can be concluded that the orginial parameters outperform the adjusted models.
 
 
-## Conclusion on Backtesting the new model to evaluate its performance
+
+### Conclusion on Backtesting the new model to evaluate its performance
 
 Setting the data to the orginial parameters, the `AdaBoost` and `DecisionTree` classifiers have been performed in pursuit of a better model. Here are the results:
 
