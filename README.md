@@ -90,7 +90,7 @@ The following information evaluates the results of the           :
 
 The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.55. This does not provide much confidence in the models performance. The Recall for -1 class is 0.04 and for 1 class is 0.96. This is heavily weighted towards predicting 1 class over -1 class.
 
-<img width="476" alt="svm_test_report" src="https://user-images.githubusercontent.com/93550651/162644434-6e4bfe81-f6fd-498e-83a7-5b8402d6195d.png">
+<img width="429" alt="svm_report" src="https://user-images.githubusercontent.com/93550651/162645835-018a657f-daad-46ea-9e18-86c94fa20cdf.png">
 
 Looking at the Baseline Cumulative Returns Plot, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are predicted to outperform the Actual Returns. The Strategy Returns predictions follow a similar trend with that of the Actual Returns.
 
