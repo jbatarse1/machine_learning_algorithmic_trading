@@ -121,6 +121,7 @@ First,  the `DateOffset` values was adjusted by changing the months from 3 month
 
 <img width="432" alt="6mos_newmodel_plot" src="https://user-images.githubusercontent.com/93550651/162645145-9aff71cd-7463-4db9-a51c-3e59f178e491.png">
 
+
 By changing the the size of the training dataset by slicing data from 3 months to 6 months, the models did not improve any better.
 
 from short_window = 4 to 3; for the long_window = 100 to 75.
@@ -143,12 +144,27 @@ Having performed several iterations to identify the best trading algorithm retur
 Setting the data to the orginial parameters, the `AdaBoost` and `DecisionTree` classifiers have been performed in pursuit of a better model. Here are the results:
 
 AdaBoost Classifier
+
 <img width="406" alt="Ada_Boost" src="https://user-images.githubusercontent.com/93550651/162648860-ea2aa9ca-aa01-478b-9f61-ad52a8bdd11a.png">
+
 <img width="562" alt="Ada_Boost1" src="https://user-images.githubusercontent.com/93550651/162648865-e804da4b-ba3f-40dd-a25a-60f7fb1ec2a1.png">
 
 <img width="455" alt="Ada_Boost2" src="https://user-images.githubusercontent.com/93550651/162648874-596ba636-7605-4ee7-9333-b42e497655e4.png">
 
 <img width="411" alt="Ada_Boost3" src="https://user-images.githubusercontent.com/93550651/162648886-255866b6-c625-416f-92ae-5afda64cfef3.png">
+
+
+DecisionTree Classifier
+
+<img width="458" alt="DTC" src="https://user-images.githubusercontent.com/93550651/162649656-c576a104-95d7-4663-a963-bb0468da6cc1.png">
+
+<img width="586" alt="DTC1" src="https://user-images.githubusercontent.com/93550651/162649662-ec955eaa-7880-46cb-ba24-61890be2fcb6.png">
+
+<img width="435" alt="DTC2" src="https://user-images.githubusercontent.com/93550651/162649671-f57b52c9-985e-4226-a2b8-16cf6fe9c3ca.png">
+
+<img width="424" alt="DTC3" src="https://user-images.githubusercontent.com/93550651/162649679-f700b0d8-bc2d-4a79-a793-5e533743bc8a.png">
+
+
 
 The back test for the new model..;....
 
