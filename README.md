@@ -12,18 +12,17 @@ This Python ML Algo Trading Bot application is set up in 4 sections. They are:
 
 4. Create Evaluation Report
 
-
-The following Notebooks are used:
+The following Notebooks and csv file are used:
 
 `machine_learning_trading_bot.ipynb`
 
 `tune1_machine_learning_trading_bot.ipynb`
 
-
+`emerging_markets_ohlcv.csv`
 
 ## Technologies
 
-This application incorportates the following required  dependancies to run:
+This application incorportates the following required dependancies to run:
 
 ### Import the required libraries and dependencies for Python
 
@@ -52,8 +51,6 @@ To Tune the Baseline Trading Algorithm, use:
 
 `from sklearn.ensemble import AdaBoostClassifier`
 
-
-
 ## Installation Guide
 
 The following installation must be performed before running the program. It include:
@@ -70,8 +67,6 @@ The following installation must be performed before running the program. It incl
 
 ``scikit-learn``
 
-
-
 ## Usage
 
 To run this application, create a clone on the local desktop. Then, initiate your conda environment and launch in Jupyter Lab. 
@@ -79,8 +74,6 @@ To run this application, create a clone on the local desktop. Then, initiate you
 Resources folder contains the following CSV files:
 
 `emerging_markets_ohlcv.csv`
-
-
 
 ### Conclusion on the performance of the baseline trading algorithm
 
@@ -100,8 +93,6 @@ The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. Th
 
 In conclusion, the new model performed better than the baseline.
 
-
-
 ### Conclusion on the performance of Tuning the baseline trading algorithm
 
 To determine the best trading outcomes, several iterations were performed by changing the model input features. 
@@ -117,7 +108,6 @@ First,  the `DateOffset` values was adjusted by changing the months from 3 month
 <img width="452" alt="6mos_newmodel_report" src="https://user-images.githubusercontent.com/93550651/162645139-f9402d78-26f3-4d24-bacf-2149e7e87a55.png">
 
 <img width="432" alt="6mos_newmodel_plot" src="https://user-images.githubusercontent.com/93550651/162645145-9aff71cd-7463-4db9-a51c-3e59f178e491.png">
-
 
 By changing the the size of the training dataset by slicing data from 3 months to 6 months, the models did not improve any better.
 
@@ -135,8 +125,6 @@ from short_window = 4 to 3; for the long_window = 100 to 75.
 
 Having performed several iterations to identify the best trading algorithm returns, it can be concluded that the orginial parameters outperform the adjusted models.
 
-
-
 ### Conclusion on Backtesting the new model to evaluate its performance
 
 Setting the data to the orginial parameters, the `AdaBoost` and `DecisionTree` classifiers have been performed in pursuit of a better model. Here are the results:
@@ -151,7 +139,6 @@ AdaBoost Classifier
 
 <img width="411" alt="Ada_Boost3" src="https://user-images.githubusercontent.com/93550651/162648886-255866b6-c625-416f-92ae-5afda64cfef3.png">
 
-
 DecisionTree Classifier
 
 <img width="458" alt="DTC" src="https://user-images.githubusercontent.com/93550651/162649656-c576a104-95d7-4663-a963-bb0468da6cc1.png">
@@ -162,23 +149,15 @@ DecisionTree Classifier
 
 <img width="424" alt="DTC3" src="https://user-images.githubusercontent.com/93550651/162649679-f700b0d8-bc2d-4a79-a793-5e533743bc8a.png">
 
+The AdaBoost Classifier model perform slighly better than the provided baseline model.
 
+The DecisionTree Classifier model performed much different than the original and tuned trading algorithm. The precision are the same: 0.44 for -1 and .53 for 1. However, the recall has flipped to heavier weight of 0.84 for -1
 
-The back test for the new model..;....
+The Returns Plots run consistant with the other models.
 
-Did the new model perform better or worse than the provided baseline models....
+## Summary Evaluation Report
 
-Did this model perform better or worse than your tuned trading algorithm...
-
-
-## Evaluation Report
-
-Final conclusions and analysis.....
-
-Findings are supported by the PNG images.
-
-
-
+In sum, the best model is the LogisticRegression "new_model" with the DateOffset at 3 months and the short window / long window set to 3 day and 75 days, respectively. The precision is about the same; but the recall of 0.26 for -1 class and 0.73 for the 1 class showing better performance in comparison to the other models.
 
 ## Contributors
 
