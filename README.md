@@ -79,23 +79,23 @@ The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.5
 
 <img width="429" alt="svm_report_original" src="https://user-images.githubusercontent.com/93550651/162646011-50042ec5-a42c-4ca1-9058-2aa233729b27.png">
 
+The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. These results are a little bit better than that of the the baseline model's performance. The Recall for -1 class is 0.33 and for 1 class is 0.66. This is still heavily weighted towards predicting 1 class over -1 class but better results.
+
+<img width="429" alt="new_model_rpt" src="https://user-images.githubusercontent.com/93550651/162646105-c43ede3b-d82a-492e-8fe9-8e7b2dfcc14a.png">
+
 Looking at the Baseline and New Model Cumulative Returns Plots, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are shown to outperform the Actual Returns. The Strategy Returns follow a similar trend with that of the Actual Returns on both plots.
 
 ![baseline_algo_trade](https://user-images.githubusercontent.com/93550651/162590072-dadf8186-209b-457e-94ac-2cc7521d2a75.png)
 
 <img width="432" alt="Actual_versus_Strategy" src="https://user-images.githubusercontent.com/93550651/162645314-d179fed6-7436-4980-b03e-49a9d89c51cb.png">
 
-The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. These results are a little bit better than that of the the baseline model's performance. The Recall for -1 class is 0.33 and for 1 class is 0.66. This is still heavily weighted towards predicting 1 class over -1 class but better results.
-
-<img width="429" alt="new_model_rpt" src="https://user-images.githubusercontent.com/93550651/162646105-c43ede3b-d82a-492e-8fe9-8e7b2dfcc14a.png">
-
-In conclusion, the new model performed better than the baseline.
+In conclusion, the new model performed better than the baseline model.
 
 ### Conclusion on the performance of Tuning the baseline trading algorithm
 
 To determine the best trading outcomes, several iterations were performed by changing the model input features. 
 
-First,  the `DateOffset` value was adjusted by changing the months from 3 months to 6 months.
+First, the `DateOffset` value was adjusted by changing the months from 3 months to 6 months.
 
 <img width="635" alt="DateOffset_6_mos" src="https://user-images.githubusercontent.com/93550651/162644709-1175b159-45b2-4b28-bcd2-8ae24d24bdd7.png">
 
@@ -155,7 +155,7 @@ The Returns Plots run consistant with the other models.
 
 ## Summary Evaluation Report
 
-In sum, the best model is the LogisticRegression "new_model" with the DateOffset at 3 months and the short window / long window set to 4 day and 100 days, respectively. The precision is about the same; but the recall of 0.33 for -1 class and 0.66 for the 1 class shows better performance in comparison to the other models.
+In sum, the best model is the original LogisticRegression "new_model" with the DateOffset at 3 months and the short window / long window set to 4 day and 100 days, respectively. The precision is about the same; but the recall of 0.33 for -1 class and 0.66 for the 1 class shows better performance in comparison to the other models.
 
 ## Contributors
 
