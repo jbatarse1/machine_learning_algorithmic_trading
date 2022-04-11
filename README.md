@@ -88,7 +88,7 @@ The following information evaluates the results of the           :
 
 ## Conclusion on the performance of the baseline trading algorithm
 
-The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.55. This does not provide much confidence in the models performance. The Recall for -1 class is 0.04 and for 1 class is 0.96. Seems heavily weighted towards predicting 1 class over -1 class.
+The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.55. This does not provide much confidence in the models performance. The Recall for -1 class is 0.04 and for 1 class is 0.96. This is heavily weighted towards predicting 1 class over -1 class.
 
 <img width="476" alt="svm_test_report" src="https://user-images.githubusercontent.com/93550651/162644434-6e4bfe81-f6fd-498e-83a7-5b8402d6195d.png">
 
@@ -98,9 +98,9 @@ Looking at the Baseline Cumulative Returns Plot, the Strategy Returns performanc
 
 <img width="432" alt="Actual_versus_Strategy" src="https://user-images.githubusercontent.com/93550651/162645314-d179fed6-7436-4980-b03e-49a9d89c51cb.png">
 
-The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. These results are almost the same as in the baseline model's performance. The Recall for -1 class is 0.33 and for 1 class is 0.66. Seems heavily weighted towards predicting 1 class over -1 class.
+The new model Precision for the -1 class is 0.52 and for the 1 class is 0.56. These results are a little bit better than that of the the baseline model's performance. The Recall for -1 class is 0.03 and for 1 class is 0.98. Also, this is heavily weighted towards predicting 1 class over -1 class.
 
-<img width="476" alt="new_model_test_report" src="https://user-images.githubusercontent.com/93550651/162644415-a6e9a439-998f-4c0f-88ef-39bd33a18469.png">
+<img width="429" alt="New_model_report" src="https://user-images.githubusercontent.com/93550651/162645696-e06da556-19a5-4446-a540-846152f2b425.png">
 
 In conclusion, the new model performed better than the baseline.
 
