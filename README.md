@@ -140,6 +140,10 @@ Having performed several iterations to identify the best trading algorithm retur
 
 ## Conclusion on Backtesting the new model to evaluate its performance
 
+Setting the data to the orginial parameters, the `AdaBoost` and `DecisionTree` classifiers have been performed in pursuit of a better model. Here are the results:
+
+AdaBoost Classifier
+
 The back test for the new model..;....
 
 Did the new model perform better or worse than the provided baseline models....
