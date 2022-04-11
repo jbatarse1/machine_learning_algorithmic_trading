@@ -98,7 +98,7 @@ Looking at the Baseline and New Model Cumulative Returns Plots, the Strategy Ret
 
 <img width="432" alt="Actual_versus_Strategy" src="https://user-images.githubusercontent.com/93550651/162645314-d179fed6-7436-4980-b03e-49a9d89c51cb.png">
 
-The new model Precision for the -1 class is 0.52 and for the 1 class is 0.56. These results are a little bit better than that of the the baseline model's performance. The Recall for -1 class is 0.03 and for 1 class is 0.98. Also, this is heavily weighted towards predicting 1 class over -1 class.
+The new model Precision for the -1 class is 0.44 and for the 1 class is 0.56. These results are a little bit better than that of the the baseline model's performance. The Recall for -1 class is 0.33 and for 1 class is 0.66. This is still heavily weighted towards predicting 1 class over -1 class but better results.
 
 <img width="429" alt="new_model_rpt" src="https://user-images.githubusercontent.com/93550651/162646105-c43ede3b-d82a-492e-8fe9-8e7b2dfcc14a.png">
 
