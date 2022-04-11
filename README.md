@@ -92,7 +92,7 @@ The baseline model Precision for the -1 class is 0.43 and for the 1 class is 0.5
 
 <img width="476" alt="svm_test_report" src="https://user-images.githubusercontent.com/93550651/162644434-6e4bfe81-f6fd-498e-83a7-5b8402d6195d.png">
 
-Looking at the Baseline Cumulative Returns Plot, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are predicted to outperform the Actual Returns. The Strategy Returns predictions follow a similar trend with that of the Actual Returns.
+Looking at the Baseline and New Model Cumulative Returns Plots, the Strategy Returns performance is consistent with the actual returns upto the middle of 2018; at which point, the Strategy Returns are shown to outperform the Actual Returns. The Strategy Returns follow a similar trend with that of the Actual Returns on both plots.
 
 ![baseline_algo_trade](https://user-images.githubusercontent.com/93550651/162590072-dadf8186-209b-457e-94ac-2cc7521d2a75.png)
 
