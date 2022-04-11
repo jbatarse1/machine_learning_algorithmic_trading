@@ -143,6 +143,12 @@ Having performed several iterations to identify the best trading algorithm retur
 Setting the data to the orginial parameters, the `AdaBoost` and `DecisionTree` classifiers have been performed in pursuit of a better model. Here are the results:
 
 AdaBoost Classifier
+<img width="406" alt="Ada_Boost" src="https://user-images.githubusercontent.com/93550651/162648860-ea2aa9ca-aa01-478b-9f61-ad52a8bdd11a.png">
+<img width="562" alt="Ada_Boost1" src="https://user-images.githubusercontent.com/93550651/162648865-e804da4b-ba3f-40dd-a25a-60f7fb1ec2a1.png">
+
+<img width="455" alt="Ada_Boost2" src="https://user-images.githubusercontent.com/93550651/162648874-596ba636-7605-4ee7-9333-b42e497655e4.png">
+
+<img width="411" alt="Ada_Boost3" src="https://user-images.githubusercontent.com/93550651/162648886-255866b6-c625-416f-92ae-5afda64cfef3.png">
 
 The back test for the new model..;....
 
